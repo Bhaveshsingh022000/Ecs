@@ -17,7 +17,7 @@ exports.postSignUp = (req, res, next) => {
       //         message: 'success',
       //         userId: result._id
       //     })
-      res.redirect("https://www.instagram.com/p/CJrFW0vhpiq/");
+      res.redirect("https://www.instagram.com/p/CJ-Wx63hDUJ/");
     })
     .catch((err) => {
       if (!err.statusCode) {
