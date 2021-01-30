@@ -24,7 +24,7 @@ app.use((error, req, res, next) => {
 mongoose.connect(MONGODB_URI)
     .then(res => {
         console.log("Connected");
-        app.listen(3005);
+        app.listen(process.env.PORT || 3005);
     })
     .catch(err => {
         console.log(err);
